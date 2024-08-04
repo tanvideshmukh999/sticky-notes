@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="container">
+       
+       <div class="left-container">
+        <h1>Write your notes here..</h1>
+        <div class="text">
+            <textarea name="" id="textarea-1" placeholder="write a note" rows="10" cols="50"></textarea>
+        </div>
+        <div class="color-button">
+        <div class="color">
+            <input type="color" id="color">
+        </div>
+
+            <div class="button-add">
+                <button id="add-note-btn">Add Note</button>
+            </div>
+        
+        </div>
+       </div>
+       <div class="right-container">
+        <h1>Your notes</h1>
+       
+        <div id="added-notes">
+            <ul id="notes-container">
+            </ul>
+            
+        </div>
+
+       </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
